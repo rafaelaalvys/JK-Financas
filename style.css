@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "DM Serif Text", serif;
+}
+
+header {
+    background-color: #D8D8C0;
+    padding: 2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
+
+.logo-jk {
+    width: 8rem;
+    height: auto;
+}
+
+.ul-list {
+    display: flex;
+    gap: 10px;
+}
+
+.ul-list li a {
+    text-decoration: none;
+    color: black;
+
+}
