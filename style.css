@@ -34,3 +34,31 @@ header {
     color: black;
 
 }
+
+.section-01 {
+    background-image: url(image/pexels-pixabay-90764.jpg);
+    background-size: cover;
+    background-position: top;
+    padding: 14rem;
+}
+
+@media screen and (max-width: 480px;) {
+    header {
+        background-color: aqua;
+    }
+    
+}
+
+@media (max-widht: 500px;) {
+    section {
+        background-image: url();
+        padding: 10rem;
+    }
+    nav {
+        display: none;
+    }
+}
+
+.section-02 {
+    background-color: #8c8c8c;
+}
