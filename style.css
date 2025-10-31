@@ -6,7 +6,7 @@
 }
 
 header {
-    background-color: #D8D8C0;
+    background-color: #807f7f;
     padding: 2rem;
 
     display: flex;
@@ -31,7 +31,7 @@ header {
 
 .ul-list li a {
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 
 }
 
@@ -42,6 +42,129 @@ header {
     padding: 14rem;
 }
 
+.section-02 {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    padding: 9rem;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+.pai-caixas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.caixa {
+    background-color: #807f7f;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    width: 25%;
+    height: 17rem;
+    box-shadow: 10px 10px 20px rgb(0, 0, 0);
+    border-radius: 5px;
+    min-width: 300px;
+    transition: 0.8s;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+.caixa-icons i {
+    color: rgb(0, 0, 0);
+    font-size: 2.2rem;
+    margin-top: 1rem;
+    margin-bottom: 0.8rem;
+}
+
+.caixa-icons {
+    text-align: center;
+}
+
+.texto-caixa p {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 1.4rem;
+}
+
+.texto-caixa button {
+    width: 8rem;
+    background-color: #000000;
+    border: none;
+    padding: 0.5rem;
+    color: white;
+}
+
+.texto-caixa {
+    text-align: center;
+}
+
+.text-content h3{
+    font-size: 2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    color: rgb(0, 0, 0);
+}
+.text-content p {
+    font-size: 1.2rem;
+    color: rgb(56, 56, 56);
+}
+
+.conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 2rem;
+    background-color: #807f7f;
+}
+
+.caixa-01{ background-color: #ffffff;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    width: 25%;
+    height: 17rem;
+    box-shadow: 10px 10px 20px rgb(0, 0, 0);
+    border-radius: 5px;
+    min-width: 300px;
+    transition: 0.8s;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+.caixa-01 h3{
+color: black;
+text-align: center;
+margin-bottom: 1rem;
+margin-top: 1rem;
+}
+
+.caixa-01 p {
+    color: #333333;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.caixa-01 button {
+    width: 8rem;
+    background-color: #8a8989;
+    border: none;
+    padding: 0.5rem;
+    color: rgb(0, 0, 0);
+}
+
+.caixa-01 {
+    text-align: center;
+}
 @media screen and (max-width: 480px;) {
     header {
         background-color: aqua;
@@ -57,8 +180,4 @@ header {
     nav {
         display: none;
     }
-}
-
-.section-02 {
-    background-color: #8c8c8c;
 }
