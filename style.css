@@ -165,6 +165,66 @@ margin-top: 1rem;
 .caixa-01 {
     text-align: center;
 }
+
+.segunda-sessao03 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 4rem;
+    height: 24rem;
+}
+
+.segunda-sessao03 h3 {
+    font-size: 2.8rem;
+}
+
+.segunda-sessao03 p {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.segunda-sessao03 input {
+    padding: 0.4rem;
+    width: 12rem;
+    border: solid 2px;
+}
+
+.segunda-sessao03 button {
+    padding: 0.2rem;
+    width: 6rem;
+    margin-bottom: 2rem;
+    background-color: #333333;
+    color: white;
+    border-radius: 0.2rem;
+}
+
+footer {
+    height: 24rem;
+    background-color: #333333;
+}
+
+.listas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    text-align: center;
+    color: white;
+}
+
+.listas ul {
+    margin-top: 6rem;
+}
+
+.listas ul li{
+    margin-top: 1.2rem;
+    padding: 0.2rem;
+    font-size: 1.2rem;
+}
+
+
 @media screen and (max-width: 480px;) {
     header {
         background-color: aqua;
