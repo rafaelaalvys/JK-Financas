@@ -215,9 +215,10 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 4rem;
+    gap: 4rem; 
     text-align: center;
-    color: white;
+    color: white; 
+    flex-wrap: wrap;
 }
 
 .listas ul {
@@ -251,19 +252,19 @@ hr {
     font-size: 2.4rem;
 }
 
-@media screen and (max-width: 480px;) {
+@media (max-width: 500px) {
     header {
-        background-color: aqua;
+        background-color: rgb(7, 241, 241);
+        padding: 1rem;
     }
-    
-}
-
-@media (max-widht: 500px;) {
-    section {
-        background-image: url();
-        padding: 10rem;
+    .section-01 {
+        background-image: url(image/mobile.jpg);
+        padding: 8rem;
     }
-    nav {
-        display: none;
+    .section-02 {
+        
+    }
+    .segunda-sessao03 {
+        margin-left: 1.8rem;
     }
 }
