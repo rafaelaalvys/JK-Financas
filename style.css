@@ -47,10 +47,11 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2.5rem;
-    padding: 9rem;
-    flex-wrap: wrap;
+    text-align: center;
+    flex-wrap: wrap; */
     flex-direction: column;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
 }
 
 
@@ -113,6 +114,7 @@ header {
     margin-bottom: 2rem;
     color: rgb(0, 0, 0);
 }
+
 .text-content p {
     font-size: 1.2rem;
     color: rgb(56, 56, 56);
@@ -215,7 +217,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 4rem; 
+    gap: 2rem; 
     text-align: center;
     color: white; 
     flex-wrap: wrap;
@@ -233,9 +235,9 @@ footer {
 
 hr {
     border: solid 1px;
-    width: 60%;
+    width: 50rem;
     color: #ffffff;
-    margin-left: 20%;
+    margin-left: 17rem;
     margin-top: 2rem;
 }
 
@@ -262,9 +264,17 @@ hr {
         padding: 8rem;
     }
     .section-02 {
-        
+        flex-direction: column;
+        align-items: center;   
+
     }
     .segunda-sessao03 {
-        margin-left: 1.8rem;
+        margin-left: 1.2rem;
+    }
+    .listas {
+        background-color: #333333;
+    }
+    hr{
+        display: none;
     }
 }
