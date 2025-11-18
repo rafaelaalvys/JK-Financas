@@ -48,8 +48,8 @@ header {
     align-items: center;
     justify-content: center;
     text-align: center;
-    flex-wrap: wrap; */
-    flex-direction: column;
+    flex-wrap: wrap;
+    */ flex-direction: column;
     margin-top: 4rem;
     margin-bottom: 6rem;
 }
@@ -107,7 +107,7 @@ header {
     text-align: center;
 }
 
-.text-content h3{
+.text-content h3 {
     font-size: 2rem;
     font-weight: 800;
     text-transform: uppercase;
@@ -130,7 +130,8 @@ header {
     background-color: #807f7f;
 }
 
-.caixa-01{ background-color: #ffffff;
+.caixa-01 {
+    background-color: #ffffff;
     color: rgb(255, 255, 255);
     font-size: 1.2rem;
     width: 25%;
@@ -143,11 +144,11 @@ header {
     padding: 1rem;
 }
 
-.caixa-01 h3{
-color: black;
-text-align: center;
-margin-bottom: 1rem;
-margin-top: 1rem;
+.caixa-01 h3 {
+    color: black;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 .caixa-01 p {
@@ -217,9 +218,9 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem; 
+    gap: 2rem;
     text-align: center;
-    color: white; 
+    color: white;
     flex-wrap: wrap;
 }
 
@@ -227,7 +228,7 @@ footer {
     margin-top: 6rem;
 }
 
-.listas ul li{
+.listas ul li {
     margin-top: 1rem;
     padding: 0.2rem;
     font-size: 1.2rem;
@@ -254,27 +255,58 @@ hr {
     font-size: 2.4rem;
 }
 
+/* MENU MOBILE */
+
+/* iCONE DO MENU (HAMBURGUER) */
+.menu-btn {
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+}
+
+/* Navegação do menu hamburguer */
+.nav-menu {
+    display: none;
+    /* só irá aparecer no mobile */
+}
+
 @media (max-width: 500px) {
     header {
         background-color: rgb(7, 241, 241);
         padding: 1rem;
     }
+
     .section-01 {
         background-image: url(image/mobile.jpg);
         padding: 8rem;
     }
+
     .section-02 {
         flex-direction: column;
-        align-items: center;   
+        align-items: center;
 
     }
+
     .segunda-sessao03 {
         margin-left: 1.2rem;
     }
+
     .listas {
         background-color: #333333;
     }
-    hr{
+
+    hr {
         display: none;
+    }
+
+    .menu-desktop {
+        /* Aqui estamos ocultando o menu para versão MOBILE */
+        display: none;
+        /* Responsável por ocultar o menu ou qualquer outra propriedade */
+    }
+
+    .mnenu-btn {
+        display: flex;
+        margin-right: -3rem;
     }
 }
